@@ -51,6 +51,10 @@ Client Prediction Report
 ## Dataset
 
 The project uses an e-commerce customer dataset containing customer behavioral and service-related features.
+The original dataset is hosted on Kaggle and is downloaded programmatically using kagglehub.
+
+Kaggle dataset:
+ankitverma2010/ecommerce-customer-churn-analysis-and-prediction
 
 The target variable is:
 
