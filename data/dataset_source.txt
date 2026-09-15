@@ -1,1 +1,16 @@
 
+The original dataset is hosted on Kaggle and is downloaded programmatically using kagglehub.
+
+Kaggle dataset:
+ankitverma2010/ecommerce-customer-churn-analysis-and-prediction
+
+
+import os
+import kagglehub
+import pandas as pd
+
+path = kagglehub.dataset_download(
+    "ankitverma2010/ecommerce-customer-churn-analysis-and-prediction"
+)
+
+print("Path to downloaded folder:", path)
